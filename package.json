@@ -1,0 +1,16 @@
+{
+  "name": "fullstackex",
+  "version": "1.0.0",
+  "description": "full stack build of a website",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
+  },
+  "author": "Louis Nguyen",
+  "license": "ISC"
+}
